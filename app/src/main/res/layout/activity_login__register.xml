@@ -14,22 +14,28 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username"
+        android:id="@+id/etUsername"
         />
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:id="@+id/etPassword"
+        android:inputType="textPassword"
         android:hint="Password"
         />
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Login"
+        android:id="@+id/btLogin"
         android:layout_gravity="center"
+        android:onClick="Login_Button"
         />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Make a new account"
+        android:id="@+id/tvRegister_Send"
         android:textSize="20sp"
         android:textStyle="bold"
         android:layout_gravity="center"/>
